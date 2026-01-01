@@ -1,0 +1,103 @@
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    
+nav{
+    background-color:black;
+    color:white;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+h1,ul,li{
+    display: inline;
+
+}
+
+ul{
+    margin-left: 60%;
+
+}
+li{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+li:hover{
+    color: lawngreen;
+   
+}
+.quote {
+  font-size: 22px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.color1 {
+  color: #8b5e3c; /* brown / classy shade */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.color2 {
+  color: #c2185b; /* elegant perfume pink */
+  font-style: italic;
+  cursor: pointer;
+}
+
+input{
+    padding:15px;
+    width: 600px;
+    border-radius: 25px; 
+    cursor: pointer;
+}
+.searchbar{
+   padding: 50px; 
+   text-align: center;
+   cursor: pointer;
+}
+.box{
+    border-color:black ;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+   
+}
+.box:hover{
+background-color: #8b5e3c;
+}
+.products{
+    text-align: center;
+    margin-top: 50px;
+}
+.about{
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+  
+}
+.about p{
+   margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.contact{
+    background-color: dimgray;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    cursor: pointer;
+   
+}
+.contact h4{
+padding: 5px; ;
+}
